@@ -100,3 +100,5 @@ SELECT customer_id FROM late_payment_histories WHERE days_late > 10;
 SELECT customer_id FROM late_payment_histories WHERE disputed = TRUE
 EXCEPT
 SELECT customer_id FROM late_payment_histories WHERE days_late > 0;
+
+---- DONE !! YEAHHHH
