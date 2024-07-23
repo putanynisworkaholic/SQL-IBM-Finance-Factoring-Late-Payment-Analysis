@@ -1,7 +1,5 @@
 CREATE DATABASE finance_factoring;
-
 \c finance_factoring;
-
 CREATE TABLE late_payment_histories (
     country_code INT,           -- Storing the country code as an integer for efficient querying.
     customer_id VARCHAR(50),    -- Using VARCHAR for customer IDs as they are alphanumeric.
