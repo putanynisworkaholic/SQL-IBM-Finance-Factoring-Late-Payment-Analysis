@@ -1,5 +1,4 @@
 -- Import data from a CSV file into the 'late_payment_histories' table
-
 COPY late_payment_histories(
     country_code,      -- Country code (INT)
     customer_id,       -- Customer ID (VARCHAR)
