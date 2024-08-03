@@ -1,6 +1,5 @@
 # [SQL] IBM-Finance-Factoring-Late-Payment-Analysis
-# Owner : Putanyn Manee 🇹🇭 🙇🏻‍♂️
-
+### 👤 Project Owner : Putanyn Manee 🇹🇭 🙇🏻‍♂️
 This project contains SQL scripts and a dataset used for analyzing late payment histories in a finance factoring context. The analysis includes performance metrics, financial analysis, payment behavior, and customer insights.
 
 ## Project Structure
@@ -88,6 +87,7 @@ To run the analysis queries, connect to the `finance_factoring` database and exe
 1. **Union of Disputed and Non-Disputed Invoices**: Combines the list of customers with disputed and non-disputed invoices.
 2. **Intersection of Disputed and Late Invoices**: Identifies customers who have disputed invoices and also have invoices that are more than 10 days late.
 3. **Difference of Disputed but Not Late Invoices**: Finds customers with disputed invoices that were not late.
+
 
 ## Source of Data
 
